@@ -1,0 +1,86 @@
+.ingredientsTitle__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tree__pic1,
+.tree__pic2{
+    width: 25%;
+    z-index: 2;
+}
+
+.ingredientsTitle__container h2{
+    font-size: 5rem;
+    font-weight: 300;
+    color: #736D6D;
+    text-align: center;
+}
+
+.ingredients__pic{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredient__pic img{
+    margin-left: 25px;
+}
+
+.ingredient__pic{
+    width: 30%;
+}
+
+.ingredients__pic img:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 950px){
+    .ingredients__pic img{
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 544px){/*544*/
+    .tree__pic1,
+    .tree__pic2{
+        display: none;
+    }
+
+    .ingredientsTitle__container{
+        justify-content: center;    
+    }
+
+    .ingredientsTitle__container br{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 354px){
+    .ingredientsTitle__container h2{
+        font-size: 15vmin;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .ingredientsTitle__container h2{
+        font-size: 15vmin;
+    }
+
+    .ingredientsTitle__container{
+        flex-wrap: wrap;
+    }
+
+    .ingredients__pic{
+        flex-wrap: wrap;
+    }
+
+    .ingredients__pic img{
+        width: 85%;
+        margin-bottom: 55px;
+    }
+}
+

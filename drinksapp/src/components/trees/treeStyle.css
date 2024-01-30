@@ -1,0 +1,30 @@
+.trees__container img,
+.img2{
+    /*width: 40%;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.img2{
+    display: none;
+}
+
+.tree_invisible{
+    display: none;
+}
+
+@media screen and (max-width: 885px){
+    .img2{
+        top: auto;
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 640px){
+    .trees__container img{
+        display: none;
+    }
+}

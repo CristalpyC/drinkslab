@@ -1,0 +1,92 @@
+.contact__btn{
+    text-transform: uppercase;
+}
+
+.sumbit__container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sumbit__container input{
+    background-color: #CD6A77;
+    border: none;
+    padding: 15px;
+    width: 25%;
+    box-shadow: 0px 5px 15px gray;
+}
+
+.sumbit__container input::placeholder{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.sumbit__container input:focus{
+    outline: none;
+}
+
+.contact__btn{
+    border: none;
+    background-color: #BE3144;
+    padding: 15px;
+    color: #F8F8F8;
+    font-family:'Karantina';
+    font-size: 2rem;
+}
+
+.contact__btn:hover{
+    background-color: #681a25;
+}
+
+.contact__container h2{
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #736D6D;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.submit__form p,
+.error__message{
+    font-weight: 300;
+    color: rgb(44, 98, 80);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.invisible{
+    display: none;
+}
+
+
+.error__message{
+    font-style: italic;
+    color: rgb(210, 65, 65);
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 950px){
+    .contact__btn{
+        font-size: 1.5rem;
+    }
+
+    .sumbit__container{
+        width: 100%;
+    }
+
+    .sumbit__container input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .contact__container h2{
+        font-size: 18vmin;
+    }
+
+    .submit__form p{
+        font-size: 5vmin;
+    }
+}

@@ -1,0 +1,22 @@
+.footer__container{
+    background-color: #D89EA6;
+    width: 100%;
+    padding: 2px;
+    margin-top: 85px;
+    text-align: center;
+    color: #464141;
+    font-size: 1.4rem;
+}
+
+
+@media screen and (max-width: 450px){
+    .footer__container{
+        font-size: 4vmin;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .footer__container{
+        font-size: 4.4vmin;
+    }
+}

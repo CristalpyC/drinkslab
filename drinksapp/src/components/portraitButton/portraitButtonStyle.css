@@ -1,0 +1,37 @@
+/*.portraitButton__container{
+    margin-top: -px;
+}*/
+.portraitButton__container button{
+    background-color: #BE3144;
+    color: #FFF;
+    border: none;
+    padding: 1rem;
+    font-size: 3rem;
+    font-family: 'Karantina', system-ui;
+    font-weight: 300;
+    text-shadow: 0px 2px 15px #F0AB8D;
+    white-space: nowrap;
+}
+
+.portraitButton__container button:hover{
+    background-color: #932634;
+}
+
+@media screen and (max-width: 1098px){
+    .portraitButton__container button{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 885px){
+    .portraitButton__container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 885px){
+    .portraitButton__container button{
+        font-size: 8vmin;
+    }
+}

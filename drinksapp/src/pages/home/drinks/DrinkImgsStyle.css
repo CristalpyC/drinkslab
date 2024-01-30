@@ -1,0 +1,21 @@
+.drinksImg__container{
+    display: flex;
+}
+
+.drinksImg__container img{
+    display: none;
+}
+
+
+@media screen and (max-width: 1175px) {
+    .drinksImg__container img{
+        display: block;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .drinksImg__container img{
+        display: none;
+    }
+}

@@ -1,0 +1,88 @@
+body{
+    background-image: url('../../images/bgImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.portrait__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pic__container img{
+    width: 100%;
+}
+
+.title__container{
+    margin: 25px 15px 15px 55px;
+}
+
+.title__container h1{
+    /*font-family: 'Jost', sans-serif;*/
+    font-family: 'Karantina', system-ui;
+    /*font-family: 'Khand', sans-serif;
+    font-family: 'Satisfy', cursive;*/
+    font-size: 7rem;
+    font-weight: 300;
+    color: #736D6D;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1137px){
+    .title__container{
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 1098px){
+    .title__container h1{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 928px){
+    .title__container h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 885px){
+    .portrait__container{
+        justify-content: center;
+    }
+
+    .title__container h1{
+        text-align: center;
+        font-size: 5.5rem;
+    }
+
+    .pic__container img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 781px){
+    .portrait__container{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 521px){
+    body{
+        background-image: url('../../images/bgImageMobile.jpg');
+    }
+    .portrait__container{
+        margin-top: 15px;
+    }
+
+    .title__container h1{
+        font-size: 15vmin;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+.mainhome__container{
+    background-image: url("https://www.jamesonwhiskey.com/wp-content/uploads/2023/03/BANNER23-DESKTOP2-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+}
+
+.bar__background{
+    background-color: rgb(48, 46, 46);
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
